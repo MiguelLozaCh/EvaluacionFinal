@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 90%;
+    margin: auto;
+    height: 10vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    width: 40%;
+    height: 10vh;
+    align-items: center;
+}
+
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.registro li{
+
+    border: solid;
+    border-radius: 30px;
+    padding: 5px;
+
+}
+
+.registro li:hover{
+    background-color: black;
+    color: white;
+}
+
+nav img{
+    width: 100px;
+    height: 75px;
+}
+
+section{
+    height: 24vh;
+    margin: auto;
+    margin: 15px;
+}
+
+/* estilo para las caja de texto */
+section div{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    height: 24vh;
+    width: 50%;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    
+    background-color: green;
+}
+
+h1{
+    letter-spacing: 5px;
+}
+
+h1, p, span{
+    text-align: center;
+    color: white;
+    font-size: 1.6em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+}
+
+.section1 div span{
+    text-decoration: underline;
+}
+
+.section2, .section3{
+    display: flex;
+}
+
+.section_img2{
+    height: 24vh;
+    width: 50%;
+    background-image: url(https://d36tnp772eyphs.cloudfront.net/blogs/2/2019/02/alebrijes-en-oaxaca-940x626.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section_img3{
+    height: 24vh;
+    width: 50%;
+    background-image: url(https://jacoboymariaangeles.com/wp-content/uploads/2022/10/VOCES-HOME-.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section_texto{
+    height: 24vh;
+    width: 50%;
+    background-color: red;
+    
+}
+
+.section_texto span{
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+footer{
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+    /* background-color: coral; */
+}
+
+footer img{
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+}
+
+footer p{
+    font-size: 1em;
+    text-align: left;
+    color: black;
+}
